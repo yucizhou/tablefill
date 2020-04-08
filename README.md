@@ -7,8 +7,13 @@ Quickstart
 ----------
 
 ```bash
-pip install git+https://github.com/mcaceresb/tablefill
-tablefill --help
+pip install git+https://github.com/yucizhou/tablefill
+```
+Windows: see help file in Python
+
+```python
+from tablefill import tablefill
+help(tablefill)
 ```
 
 Documentation
@@ -39,8 +44,7 @@ Installation
 ------------
 
 ```bash
-pip install git+https://github.com/mcaceresb/tablefill
-tablefill --help
+pip install git+https://github.com/yucizhou/tablefill
 ```
 
 This was created specifically to run in a server that only had Python 2.6 available. The function should be compatible with Python 2.6, Python 2.7, and Python 3.X without requiring the installation of any additional packages (the `--numpy-syntax` option is available if the function can successfully run `import numpy`; however, `numpy` is not required for normal use).
